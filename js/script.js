@@ -21,7 +21,7 @@ function addFirstPages(data) {
     var $dom;
     dom = $('<div>').html(data);
     $('.thcover > img', dom).each(function(index) {
-        $('#content').append("<a href='" + $(this).attr("src").replace("200", "750") + "' target='_blank'><img class='frontpage' src='" + $(this).attr("src").replace("200", "300") + "'/></a>");
+        $('#content').append("<a href='" + $(this).attr("src").replace(".200", "") + "' target='_blank'><img class='frontpage' src='" + $(this).attr("src").replace("200", "300") + "'/></a>");
     });
 }
 
